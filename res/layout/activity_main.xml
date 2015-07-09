@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#12163C"
+    tools:context=".MainActivity" >
+    
+
+    <Button
+        android:id="@+id/btnCalendario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="Calendario" />
+
+    <Button
+        android:id="@+id/btnClasificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnCalendario"
+        android:layout_alignBottom="@+id/btnCalendario"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="32dp"
+        android:text="Clasificacion" />
+
+    <Button
+        android:id="@+id/btnResultados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnCalendario"
+        android:layout_below="@+id/btnEquipo"
+        android:layout_marginTop="57dp"
+        android:text="Resultados" />
+
+    <Button
+        android:id="@+id/btnGoleadores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnResultados"
+        android:layout_alignBottom="@+id/btnResultados"
+        android:layout_alignRight="@+id/btnClasificacion"
+        android:text="Goleadores" />
+
+    <Button
+        android:id="@+id/btnEquipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCalendario"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:text="Equipo" />
+
+</RelativeLayout>
